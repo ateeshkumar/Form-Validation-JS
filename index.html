@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <form action = "" id="form">
+       <h1 align="center">USER REGISTRATION</H1>
+       <table align="center" cellspacing = "3" cellpadding = "3" border = "3">
+          <tr>
+             <td align = "right">Name</td>
+             <td><input type = "text" name = "name" id="name"/></td>
+          </tr>
+          <tr>
+             <td align = "right">E-mail</td>
+             <td><input type = "text" name = "email" id="email"/></td>
+          </tr>
+          <tr>
+             <td align = "right">Phone Number</td>
+             <td><input type = "text" name = "phone" id="phone"/></td>
+          </tr>
+          <tr>
+             <td align = "right">Subject</td>
+             <td>
+                <select name = "subject" id="subject">
+                   <option value = "0" selected>Select</option>
+                   <option value = "1">HTML</option>
+                   <option value = "2">JavaScript</option>
+                   <option value = "3">CSS</option>
+                   <option value = "4">JSP</option>
+                </select>
+             </td>
+          </tr>
+       </table>
+       
+ <div style="text-align:center"><input type = "submit" value = "Submit" id="submit"/></div>
+    </form>
+    <p id="demo" style="color:red; text-align:center"></p>
+    <script src="main.js"></script>
+ </body>
+</html>
